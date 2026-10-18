@@ -4,7 +4,7 @@
 # Group:     IM 1-2
 # Course:    Programming Methodologies
 # Topic:     Strings in Python
-# GitHub repository: <https://github.com/usuario/repositorio>
+# GitHub repository: <https://github.com/RzSolo/Manejo-de-strings-en-Python>
 
 # EXECUTIVE SUMMARY
 
@@ -394,15 +394,15 @@ if choice == "6" or choice == "0":
 
 # CONCLUSIONS
 
-# El manejo de strings es esencial en la entrada y salida de datos, porque
+# El manejo de strings es esencial en la entrada y salida de datos porque
 # casi todo lo que el usuario escribe llega como texto. Conviene usar strip()
 # al inicio para quitar espacios sobrantes, lower() o title() para unificar
 # mayúsculas, split() para separar palabras y join() para volver a unirlas.
 # Normalizar el texto antes de compararlo evita errores como que "Anita" y
 # "anita" parezcan distintos. Las validaciones (que no esté vacío, que tenga
 # '@', que tenga al menos dos palabras) evitan datos basura desde el inicio.
-# También aprendí que los strings son inmutables, por lo que cada método
-# devuelve una cadena nueva que hay que guardar en una variable, y que los
+# También aprendí que los strings son inmutables por lo que cada método
+# devuelve una cadena nueva que hay que guardar en una variable y que los
 # slices como text[::-1] o label[:30] permiten extraer o recortar texto
 # fácilmente.
 
